@@ -1,0 +1,80 @@
+.testimonial {
+    background-image: url("../public/images/qouteimage.svg");
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    padding-left: 100px;
+    min-height: 493px;
+}
+
+.testContainer {
+    width: 50%;
+}
+
+.testHeading {
+    font: normal normal bold 40px/50px Lato;
+    letter-spacing: 0px;
+    color: #1F1F1F;
+    opacity: 1;
+}
+
+.testBox {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 30px #41414115;
+    width: 80%;
+    min-height: 272px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.testBox h3 {
+    font-size: 20px;
+}
+
+.testBox p {
+    font-size: 16px;
+}
+
+.testButton {
+    text-align: left;
+    font: normal normal 600 19px/29px Lato;
+    letter-spacing: 0px;
+    color: #126FED;
+    opacity: 1;
+}
+
+.testButton:hover {
+    color: #3789fa;
+}
+
+
+@media (max-width: 912px) {
+    .testimonial{
+        padding-left: 0px;
+    }
+    .testContainer {
+        width: 100%;
+    }
+    
+    .testHeading {
+        font: normal normal bold 28px/41px Lato;margin-left: 35px;
+    }
+    
+    .testBox{width: 90%;}
+}
+
+@media (max-width: 540px) {
+    .testimonial{
+        padding-left: 0px;
+    }
+    .testContainer {
+        width: 100%;
+    }
+    
+    .testHeading {
+        font: normal normal bold 24px/37px Lato;margin-left: 20px;
+    }
+    .testBox{width: 90%;}
+}

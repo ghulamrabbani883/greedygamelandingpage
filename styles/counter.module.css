@@ -1,0 +1,80 @@
+.counter {
+    background-image: url("../public/images/counter.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 214px;
+    width: 100vw;
+    padding-left: 70px;
+}
+
+.counterContainer {
+    position: relative;
+    top: 35%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.counterItem {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counterItem h3 {
+    font-size: 36px;
+    text-align: center;
+    margin: -20px;
+}
+
+.counterItem p {
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-width: 912px) {
+    .counter{padding-left:0px;}
+    .counterContainer {
+      width: 100%;
+      display: flex;
+      justify-content:center;
+    }
+
+    .counterItem h3 {
+        font-size: 28px;
+        text-align: center;
+        margin: -20px;
+    }
+
+    .counterItem p {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 540px) {
+    .counter{padding-left:0px;}
+    .counterContainer {
+      width: 100%;
+      top: 25%;
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content:space-around;
+      row-gap: 35px;
+    }
+
+    .counterItem h3 {
+        font-size: 24px;
+        text-align: center;
+        margin: -20px;
+    }
+
+    .counterItem p {
+        font-size: 16px;
+        text-align: center;
+    }
+}
