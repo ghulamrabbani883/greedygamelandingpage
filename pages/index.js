@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Banner from "../components/Banner";
 import Client from "../components/Client";
 import Counter from "../components/Counter";
@@ -9,6 +10,9 @@ import Testimonial from "../components/Testimonial";
 const index = () => {
   return (
     <>
+    <Head>
+      <title>GreedyGame Landingpage</title>
+    </Head>
       <Header />
       <Banner />
       <Counter />
