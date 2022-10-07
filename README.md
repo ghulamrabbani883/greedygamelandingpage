@@ -1,3 +1,13 @@
+## This is a Landing page of GreedyGame, made with Nextjs
+ ### Key features of the website are
+ - the website is fully responsive.
+ - Nextjs css module files are being used to design the website.
+ - The website is divided into components.
+
+
+
+# By default Doc
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
