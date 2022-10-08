@@ -12,11 +12,13 @@ const Form = () => {
     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     if (!email.value.match(mailformat)) {
       emailError.innerText = "Invalid Email Address"
+      email.value = null;
       return;
     }
     const countryCode = phone.value.split(" ").join("").slice(0, 3)
     if (countryCode !== '+91') {
       phoneError.innerText = "Please enter a valid phone number with country code"
+      phone.value = null
       return;
     }
     router.push("/api/form")
